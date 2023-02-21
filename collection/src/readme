@@ -1,0 +1,10 @@
+Collection是一个接口，含有三个常用子接口：List、Set、Queue
+1.List可以存储可以重复的数据，实现了List的常用类有ArrayList（底层数据结构为数组）、LinkedList（底层数据结构为双向链表）
+2.Set只能存储不可重复的数据，实现了Set的常用类有HashSet（底层数据结构为散列表--链表数组）、TreeSet（底层数据结构为树）
+3.Queue表示队列，有一个子接口Deque表示双端队列。常用的实现类有ArrayDeque(数组方式存储的队列)、LinkedList（底层数据结构为双向链表）
+
+
+Map（映射），是一个接口，实现了Map的常用类有HashMap（键数据结构为散列表--链表数组）、TreeMap（键底层数据结构为树）
+Map没有迭代器
+
+视图view。比如keySet()返回的Set对象，可以通过这个对象来操纵原来的Map方法
