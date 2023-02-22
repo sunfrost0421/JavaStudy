@@ -1,0 +1,7 @@
+git添加多个文件，用空格隔开：git add file1 file2 file3
+
+
+与远程仓库进行关联：git remote add origin 远程仓库的SSH连接
+【关联远程仓库后，本地使用git branch -a，是找不到远程分支的】
+查看关联的远程仓库：git remote -v
+【关联成功远程仓库后，可以对其进行pull，拉取到工作区】
